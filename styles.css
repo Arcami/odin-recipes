@@ -2,3 +2,20 @@ img {
     height: auto;
     width: 500px;
 }
+
+body {
+    background-color: pink;
+}
+
+body.lasagna {
+    background-color: tomato;
+}
+
+.lasagna {
+    /* This one has less priority */
+    background-color: yellow;
+}
+
+.centered {
+    text-align: center;
+}
