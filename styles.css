@@ -1,21 +1,26 @@
 img {
-    height: auto;
-    width: 500px;
+  height: auto;
+  width: 500px;
 }
 
 body {
-    background-color: pink;
+  background-color: pink;
 }
 
 body.lasagna {
-    background-color: tomato;
+  background-color: tomato;
 }
 
 .lasagna {
-    /* This one has less priority */
-    background-color: yellow;
+  /* This one has less priority */
+  background-color: yellow;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: 100;
 }
